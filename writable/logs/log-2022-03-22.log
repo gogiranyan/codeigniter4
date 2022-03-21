@@ -1,0 +1,4 @@
+ERROR - 2022-03-22 01:38:27 --> Duplicate entry 'jackaccount' for key 'teacher_info.PRIMARY'
+ERROR - 2022-03-22 01:39:54 --> Duplicate entry 'jackaccount' for key 'teacher_info.PRIMARY'
+ERROR - 2022-03-22 01:40:55 --> Duplicate entry 'jackaccount' for key 'teacher_info.PRIMARY'
+ERROR - 2022-03-22 01:43:10 --> Duplicate entry 'jackaccount' for key 'teacher_info.PRIMARY'

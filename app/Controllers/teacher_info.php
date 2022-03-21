@@ -40,7 +40,7 @@ class Teacher_info extends Controller
 
 
         foreach($access as $access_item){
-            if (!empty($data['account']) && $access_item['app_access'] == 1) {
+            if (!empty($data['account']) && $access_item['app_access'] == 1 && $access_item['account'] == $slug) {
                 echo json_encode($data['account']);
             }else{
                 echo null;
@@ -73,20 +73,24 @@ class Teacher_info extends Controller
                         if($cdata_item['account'] == $account){
                              $modelc->update($cdata_item['id'],['app_access' => 1]);
                              $temp =true;
+                             echo "update";
                         }
                     }
                     if($temp != true){
-                        $model ->save([
+                        $modelc ->save([
                         'account' => $account,
                         'app_access' => 1,
                         'mac_access' => 0
                     ]);
+                    echo "save";
                     }}else{
-                    echo json_encode(null);
+                    // echo json_encode(null);
+                    // echo $account;
                 }
             }
-
-        }       
+        }else{
+            echo view("teacher_info/login");
+        }
         
         //重定向瀏覽器 
          // header("Location: http://localhost:8080/teacher_info/"); 
