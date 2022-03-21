@@ -37,17 +37,16 @@ class Teacher_info extends Controller
         $modelc = model(ControllersModel::class);
         $data['account'] = $model->getInfo($slug);
         $access = $modelc->getcontrol();
-        echo $_SESSION['userName'];
+
+
         foreach($access as $access_item){
-            
+            if (!empty($data['account']) && $access_item['app_access'] == 1) {
+                echo json_encode($data['account']);
+            }else{
+                echo null;
+            }
         }
 
-        if (!empty($data['account']) && $access[0]['app_access'] == 1 && $access) {
-            echo json_encode($data['account']);
-        }else{
-            echo null;
-                             
-        }
     }
 
     public function login($slue = null) {
