@@ -16,7 +16,7 @@ session_start();
 class Teacher_info extends Controller
 {
     
-    
+    public $d = 'd';
     public $app_access = 20;
     public $mac_access =false;
     public function index()
