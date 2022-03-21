@@ -20,7 +20,7 @@ class Teacher_info extends Controller
     public $app_access = 20;
     public $mac_access =false;
     public function index()
-    {
+    {   echo $_SESSION['mdmd'];
         echo $_SESSION['userName'];
         echo "dd";
     }
@@ -57,8 +57,6 @@ class Teacher_info extends Controller
         $modelc = model(ControllersModel::class);
         $request = \Config\Services::request();//?
         
-        
-        
         if ($this->request->getMethod() === 'post' && $this->validate([
             'account' => 'required',
             'password' => 'required',
@@ -70,16 +68,26 @@ class Teacher_info extends Controller
             foreach($data as $data_item){
                 if($account == $data_item['account'] && 
                 $password == $data_item['password']){
-                   $modelc->update(0,['app_access' => 1]);
-                }else{
+                    $cdata =$modelc->getcontrol();
+                    $temp = false;
+                    foreach($cdata as $cdata_item){
+                        if($cdata_item['account'] == $account){
+                             $modelc->update($cdata_item['id'],['app_access' => 1]);
+                             $temp =true;
+                        }
+                    }
+                    if($temp != true){
+                        $model ->save([
+                        'account' => $account,
+                        'app_access' => 1,
+                        'mac_access' => 0
+                    ]);
+                    }}else{
                     echo json_encode(null);
                 }
             }
 
-        } else {
-            echo view("teacher_info/login");
-        }
-        
+        }       
         
         //重定向瀏覽器 
          // header("Location: http://localhost:8080/teacher_info/"); 
