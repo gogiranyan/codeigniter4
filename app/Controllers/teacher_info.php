@@ -79,10 +79,11 @@ class Teacher_info extends Controller
                     if($temp != true){
                         $modelc ->save([
                         'account' => $account,
-                        'app_access' => 1,
+                        'app_access' => 0,
                         'mac_access' => 0
                     ]);
                     echo "save";
+                    echo $account;
                     }}else{
                     // echo json_encode(null);
                     // echo $account;
