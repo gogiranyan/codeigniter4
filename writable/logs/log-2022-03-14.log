@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-14 12:36:43 --> Invalid file: logIn.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('logIn.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('logIn', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(11): view('logIn')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\teacher_info->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\teacher_info))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}

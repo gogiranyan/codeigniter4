@@ -1,0 +1,82 @@
+CRITICAL - 2022-03-16 11:50:43 --> syntax error, unexpected ';', expecting ')'
+#0 C:\AppServ\www\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\AppServ\\www\\...')
+#1 C:\AppServ\www\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-16 12:29:01 --> syntax error, unexpected '}', expecting end of file
+#0 C:\AppServ\www\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\AppServ\\www\\...')
+#1 C:\AppServ\www\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-16 14:07:03 --> Invalid file: fe.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fe.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('fe', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(58): view('fe')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-16 14:15:45 --> Invalid file: news.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(57): view('news')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-16 14:15:54 --> Invalid file: news/.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(57): view('news/')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-16 14:15:59 --> Invalid file: news/.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(57): view('news/')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-16 14:16:39 --> Invalid file: news.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(57): view('news')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-16 14:24:38 --> Invalid file: .php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(55): view('')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->create()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}

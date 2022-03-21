@@ -1,0 +1,290 @@
+CRITICAL - 2022-03-21 00:01:09 --> Call to undefined function App\Controllers\_access()
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 00:01:23 --> Call to undefined function App\Controllers\_access()
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 00:01:27 --> Call to undefined function App\Controllers\_access()
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 00:01:55 --> Call to undefined function App\Controllers\_access()
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 00:34:59 --> Too few arguments to function App\Controllers\Teacher_info::view(), 1 passed in C:\AppServ\www\codeigniter4\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 10:44:59 --> Invalid file: teacher_info/view.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teacher_info/vi...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('teacher_info/vi...', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(62): view('teacher_info/vi...', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->login()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-21 11:14:47 --> Call to undefined method CodeIgniter\Controller::update()
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->login()
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:49:53 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:49:53 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:56:25 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:56:28 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:57:17 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:57:39 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 12:57:49 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): A se...', 'C:\\AppServ\\www\\...', 71, Array)
+#1 C:\AppServ\www\codeigniter4\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\AppServ\\www\\...')
+#2 C:\AppServ\www\codeigniter4\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\AppServ\www\codeigniter4\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\AppServ\www\codeigniter4\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(53): session()
+#9 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->login()
+#10 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#11 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#14 {main}
+CRITICAL - 2022-03-21 12:59:55 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 13:00:17 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 13:00:18 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 13:00:37 --> Call to a member function library() on null
+#0 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#5 {main}
+CRITICAL - 2022-03-21 13:02:35 --> ini_set(): A session is active. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): A se...', 'C:\\AppServ\\www\\...', 71, Array)
+#1 C:\AppServ\www\codeigniter4\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\AppServ\\www\\...')
+#2 C:\AppServ\www\codeigniter4\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\AppServ\www\codeigniter4\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\AppServ\www\codeigniter4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\AppServ\www\codeigniter4\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(52): session()
+#9 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->login()
+#10 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#11 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#14 {main}
+CRITICAL - 2022-03-21 13:22:34 --> Call to undefined method App\Models\ControllersModel::updata
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('updata', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:22:38 --> Call to undefined method App\Models\ControllersModel::updata
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('updata', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:23:19 --> Call to undefined method App\Models\ControllersModel::seve
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('seve', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:23:32 --> Call to undefined method App\Models\ControllersModel::updata
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('updata', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:24:46 --> Call to undefined method App\Models\ControllersModel::updata
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('updata', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:25:53 --> Call to undefined method App\Models\ControllersModel::updata
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('updata', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:51:48 --> Call to protected method CodeIgniter\Database\BaseBuilder::_update() from context 'CodeIgniter\Model'
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): CodeIgniter\Model->__call('_update', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:52:15 --> Call to a member function set() on null
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): App\Models\ControllersModel->_update(0, 1)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:52:54 --> Call to a member function set() on null
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(30): App\Models\ControllersModel->_update(0, 1)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:53:41 --> Call to a member function set() on null
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(32): App\Models\ControllersModel->_update(0, 1)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 13:55:25 --> Call to a member function set() on null
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(32): App\Models\ControllersModel->_update(0, 1)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:02:39 --> Call to a member function set() on null
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(32): App\Models\ControllersModel->_update(0, 1)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:03:23 --> Argument 2 passed to App\Models\ControllersModel::_update() must be of the type int, array given, called in C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php on line 32
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(32): App\Models\ControllersModel->_update(0, Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:04:23 --> Argument 2 passed to App\Models\ControllersModel::_update() must be of the type int, array given, called in C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php on line 34
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(34): App\Models\ControllersModel->_update(0, Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:05:11 --> Call to protected method CodeIgniter\Database\BaseBuilder::_update() from context 'CodeIgniter\Model'
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(34): CodeIgniter\Model->__call('_update', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('bobaccount')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:05:15 --> Call to protected method CodeIgniter\Database\BaseBuilder::_update() from context 'CodeIgniter\Model'
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(34): CodeIgniter\Model->__call('_update', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('=')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}
+CRITICAL - 2022-03-21 14:05:18 --> Call to protected method CodeIgniter\Database\BaseBuilder::_update() from context 'CodeIgniter\Model'
+#0 C:\AppServ\www\codeigniter4\app\Controllers\teacher_info.php(34): CodeIgniter\Model->__call('_update', Array)
+#1 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Teacher_info->view('$1')
+#2 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher_info))
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#6 {main}

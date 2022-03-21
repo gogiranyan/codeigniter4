@@ -1,0 +1,336 @@
+CRITICAL - 2022-03-10 13:04:27 --> Invalid file: pages/news.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/news.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/news', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/news')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('news')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:04:38 --> Invalid file: pages/news.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/news.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/news', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/news')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('news')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:04:44 --> Invalid file: pages/news.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/news.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/news', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/news')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('news')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:06:06 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:06:23 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:06:26 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:06:38 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'view')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:06:50 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'view')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:07:29 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'view')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:07:31 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:08:10 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'home')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:08:47 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'home')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:09:51 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:10:42 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:10:52 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:12:35 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:13:42 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:14:25 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:15:56 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:20:07 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:32:19 --> Invalid file: Views/pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/pages/pag...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('Views/pages/pag...', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('Views/pages/pag...')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:32:32 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'about')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:33:27 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:33:30 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:33:36 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pages/pages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'home')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:34:08 --> Invalid file: pagespages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagespages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pagespages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(29): view('pagespages')
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'home')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 13:35:04 --> Invalid file: pages/pages.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('pages/pages', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\pages.php(30): view('pages/pages', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->view('pages', 'home')
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+ERROR - 2022-03-10 22:44:26 --> Table 'testdb.testdb' doesn't exist
+CRITICAL - 2022-03-10 22:44:26 --> Table 'testdb.testdb' doesn't exist
+#0 C:\AppServ\www\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\AppServ\www\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\AppServ\www\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\AppServ\www\codeigniter4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\AppServ\www\codeigniter4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\AppServ\www\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\AppServ\www\codeigniter4\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\AppServ\www\codeigniter4\app\Controllers\news.php(15): App\Models\NewsModel->getNews()
+#8 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#9 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#13 {main}
+CRITICAL - 2022-03-10 22:46:16 --> Invalid file: news/overview.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(20): view('news/overview', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 22:54:24 --> Invalid file: news/overview.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(20): view('news/overview', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 22:55:04 --> Invalid file: news/overview.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(20): view('news/overview', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 23:01:47 --> Invalid file: news/overview.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(20): view('news/overview', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-10 23:01:49 --> Invalid file: news/overview.php
+#0 C:\AppServ\www\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/overview.p...')
+#1 C:\AppServ\www\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('news/overview', Array, true)
+#2 C:\AppServ\www\codeigniter4\app\Controllers\news.php(20): view('news/overview', Array)
+#3 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(832): App\Controllers\News->index()
+#4 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\AppServ\www\codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\AppServ\www\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\AppServ\www\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\AppServ\\www\\...')
+#8 {main}
