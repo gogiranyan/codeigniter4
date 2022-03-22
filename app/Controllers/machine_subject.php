@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\ControllersModel;
 use CodeIgniter\Controller;
 session_start();
 
@@ -16,6 +17,14 @@ class Machine extends Controller
 
     public function view($page = 'home')
     {
+
        
     }
+    public function connect($slug = null){
+        $model = model(ControllersModel::class);
+        
+
+    }
+
+
 }
