@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class ControllersModel extends Model
 {
     protected $table = 'controllers';
-    protected $allowedFields = ['app_access', 'mac_access'];
+    protected $allowedFields = ['app_access', 'mac_access','account'];
 
     public function getcontrol($slug = false)
     {

@@ -46,7 +46,6 @@ class Teacher_info extends Controller
                 echo null;
             }
         }
-
     }
 
     public function login($slue = null) {
@@ -77,14 +76,15 @@ class Teacher_info extends Controller
                         }
                     }
                     if($temp != true){
-                        $modelc ->save([
+                        $modelc -> save([
                         'account' => $account,
-                        'app_access' => 0,
+                        'app_access' => 1,
                         'mac_access' => 0
                     ]);
                     echo "save";
                     echo $account;
                     }}else{
+                        echo "else";
                     // echo json_encode(null);
                     // echo $account;
                 }
