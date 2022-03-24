@@ -11,24 +11,24 @@ class Machine_subject extends Controller
     // public $machine_id;
     public function index()
     {
-        $_SESSION['mdmd'] = "good";
+        // $_SESSION['mdmd'] = "good";
         echo "hi";
-        echo $_SESSION['mdmd'];
+        // echo $_SESSION['mdmd'];
         echo $_SESSION['userName'];
+        echo $_SESSION['account'];
     }
 
     public function view($slug = null)
     {
-        if($slug == $_SESSION['machine_id']){
+        if($slug == $_SESSION['machine_id']){//查看是否接收到手機資料與是否連接
             if($_SESSION['data_package'] != null){
              echo $_SESSION['data_package'];
             }else{
-             echo $_SESSION['machine_id'];
-             echo $_SESSION['data_package'];
+             echo "can't get data or machine_id";
             }
         }
     }
-    public function connect($slug = null){
+    public function connect($slug = null){//1.先連接
         $model = model(ControllersModel::class);
         $request = \Config\Services::request();//?
         if($this->request->getMethod() === 'post' &&$this->validate([
@@ -36,10 +36,13 @@ class Machine_subject extends Controller
             'time' => 'time'
         ])){
             $_SESSION['machine_id'] = $request->getPost('machin_id');
+            echo true;
+        }else{
+            echo false;
         }
     }
 
-    public function getPOST_Subject(){//手機取得資料
+    public function getPOST_Subject(){//手機取得資料 
         if($_SESSION['account'] != null){
                 $request = \Config\Services::request();//?
             if($this->request->getMethod() === 'post' &&$this->validate([

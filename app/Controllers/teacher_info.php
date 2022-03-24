@@ -20,7 +20,7 @@ class Teacher_info extends Controller
         $_SESSION[$ui] ="l";
 
         echo $_SESSION['uis'];
-        $_SESSION['userName'] = "jack ";
+        
         echo $_SESSION['userName'];
         echo "dd";
         $myIP = gethostbyname(trim(`hostname`));
@@ -46,7 +46,7 @@ class Teacher_info extends Controller
         }
     }
 
-    public function login($slue = null) {//手機POST帳密
+    public function login() {//手機POST帳密
         $model = model(teacherModel::class);
         $modelc = model(ControllersModel::class);
         $request = \Config\Services::request();//?
@@ -78,13 +78,16 @@ class Teacher_info extends Controller
                         'app_access' => 1,
                         'mac_access' => 0
                     ]);
-                    echo $account;
-                    $_SESSION['account'] = $account;
-                    }}else{
+                    
+                    }
+                }else{
                      echo json_encode(null);
                     // echo $account;
                 }
             }
+            
+            echo $account;
+            $_SESSION['account'] = $account;
         }else{
             echo view("teacher_info/login");
         }
