@@ -11,10 +11,7 @@ class Machine_subject extends Controller
     // public $machine_id;
     public function index()
     {
-        // $_SESSION['mdmd'] = "good";
         echo "hi";
-        // echo $_SESSION['mdmd'];
-        echo $_SESSION['userName'];
         echo $_SESSION['account'];
     }
 

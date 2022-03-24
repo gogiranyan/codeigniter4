@@ -18,4 +18,13 @@ class Subject extends Controller
       $subject = $model->getsubject();
       echo json_encode($subject,JSON_UNESCAPED_UNICODE);
     }
+
+    public function get_subject(){
+      if($this->request->getMethod() === 'post' && $this->validate([
+        'subject' => 'subject',
+        'time' => 'time'
+      ]));
+      
+
+    }
 }

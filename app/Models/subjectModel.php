@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class SubjectModel extends Model
 {
     protected $table = 'subject';
-    protected $allowedFields = ['主題', '中文', '英文'];
+    protected $allowedFields = ['subject', 'time',];
 
     public function getsubject($slug = false)
     {
@@ -15,6 +15,6 @@ class SubjectModel extends Model
             return $this->findAll();
         }
     
-        return $this->where(['account' => $slug])->first();
+        return $this->where(['subject' => $slug])->first();
     }
 }
