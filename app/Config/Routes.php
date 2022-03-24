@@ -36,6 +36,10 @@ $routes->setDefaultController('Teacher_info');
 
 //------------------machin_subject-----------------
 $routes->get('machine_subject', 'Machine_subject::index');
+$routes->match(['get', 'post'], 'machine_subject/connect', 'Machine_subject::connct');
+$routes->match(['get', 'post'], 'machine_subject/getPOST_Subject', 'Machine_subject::getPOST_Subject');
+$routes->get('machine_subject/(:segment)', 'Machine_info::view/$1');
+
 
 
 

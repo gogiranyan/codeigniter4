@@ -19,10 +19,14 @@ class Machine_subject extends Controller
 
     public function view($slug = null)
     {
-
-        
-
-       
+        if($slug == $_SESSION['machine_id']){
+            if($_SESSION['data_package'] != null){
+             echo $_SESSION['data_package'];
+            }else{
+             echo $_SESSION['machine_id'];
+             echo $_SESSION['data_package'];
+            }
+        }
     }
     public function connect($slug = null){
         $model = model(ControllersModel::class);
@@ -31,28 +35,30 @@ class Machine_subject extends Controller
             'machine_id' => 'machine_id',
             'time' => 'time'
         ])){
-            $GLOBALS['$machine_id'] = $request->getPost('machin_id');
-            // $_SESSION[$GLOBALS['$machine_id']] = $GLOBALS['$machine_id'];
-            // $model->
+            $_SESSION['machine_id'] = $request->getPost('machin_id');
         }
     }
 
     public function getPOST_Subject(){//手機取得資料
-        $request = \Config\Services::request();//?
-        if($this->request->getMethod() === 'post' &&$this->validate([
-            'model' => 'model',
-            'subject' => 'subject',
-            'hard' => 'hard',
-            'game_time' =>'game_time',
-        ])){
-            $data = [
-                'subject' => $request->getPost('subject'),
-                'hard' => $request->getPost('hard'),
-                'gema_time' =>$request->getPost('gema_time'),
-                'model' => $request->getPost('model')
-            ];
-            echo json_encode($data);
+        if($_SESSION['account'] != null){
+                $request = \Config\Services::request();//?
+            if($this->request->getMethod() === 'post' &&$this->validate([
+                'model' => 'model',
+                'subject' => 'subject',
+                'hard' => 'hard',
+                'game_time' =>'game_time',
+            ])){
+                $_SESSION['data_package'] = [
+                    'subject' => $request->getPost('subject'),
+                    'hard' => $request->getPost('hard'),
+                    'gema_time' =>$request->getPost('gema_time'),
+                    'model' => $request->getPost('model')
+                ];
+                echo json_encode($_SESSION['data_package']);
+                
+            }
         }
+        
     }
 
 
