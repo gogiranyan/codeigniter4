@@ -9,35 +9,33 @@ use Kint\Parser\ToStringPlugin;
 session_start();
 // $_SESSION['userName'] = "Kao";
 
-
-
-
-
 class Teacher_info extends Controller
 {
     
-    public $d = 'd';
+
     public $app_access = 20;
     public $mac_access =false;
     public function index()
-    {   echo $_SESSION['mdmd'];
+    {  
+        $ui = "uis";
+        $_SESSION[$ui] ="l";
+
+        echo $_SESSION['uis'];
         echo $_SESSION['userName'];
         echo "dd";
+        $myIP = gethostbyname(trim(`hostname`));
+        echo $myIP;
     }
-    public function gg(){
-        $_SESSION['userName'] = "chang";
-        echo "gg";
-    }
-    
 
     public function view($slug = null)
     {
-        // $_SESSION['userName'] = "s";
+        
         $model = model(teacherModel::class);
         $modelc = model(ControllersModel::class);
         $data['account'] = $model->getInfo($slug);
         $access = $modelc->getcontrol();
 
+        
 
         foreach($access as $access_item){
             if (!empty($data['account']) && $access_item['app_access'] == 1 && $access_item['account'] == $slug) {
@@ -49,8 +47,6 @@ class Teacher_info extends Controller
     }
 
     public function login($slue = null) {
-        
-      
         $model = model(teacherModel::class);
         $modelc = model(ControllersModel::class);
         $request = \Config\Services::request();//?
@@ -92,13 +88,8 @@ class Teacher_info extends Controller
         }else{
             echo view("teacher_info/login");
         }
-        
-        //重定向瀏覽器 
-         // header("Location: http://localhost:8080/teacher_info/"); 
-            // exit;
-
-         //確保重定向後，後續代碼不會被執行
-         return $this->app_access =1;
 	}
+    
+
 
 }
