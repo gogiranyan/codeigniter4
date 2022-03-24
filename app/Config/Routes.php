@@ -33,8 +33,9 @@ $routes->setDefaultController('Teacher_info');
 // $routes->get('news/(:segment)', 'News::view/$1');
 // $routes->get('news', 'News::index');
 // $routes->get('(:any)', 'Pages::view/$1');
+$routes->get('machine_subject', 'Machine_subject::index');
 $routes->get('teacher_info/index', 'teacher_info::index');
-$routes->get('teacher_info/machine', 'Machine::index');
+
 $routes->get('teacher_info/gg', 'teacher_info::gg');
 $routes->match(['get', 'post'], 'teacher_info/login', 'Teacher_info::login');
 $routes->get('teacher_info/(:segment)', 'teacher_info::view/$1');

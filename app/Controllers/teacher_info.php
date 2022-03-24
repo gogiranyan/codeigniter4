@@ -21,10 +21,12 @@ class Teacher_info extends Controller
         $_SESSION[$ui] ="l";
 
         echo $_SESSION['uis'];
+        $_SESSION['userName'] = "jack ";
         echo $_SESSION['userName'];
         echo "dd";
         $myIP = gethostbyname(trim(`hostname`));
         echo $myIP;
+        
     }
 
     public function view($slug = null)
@@ -36,7 +38,6 @@ class Teacher_info extends Controller
         $access = $modelc->getcontrol();
 
         
-
         foreach($access as $access_item){
             if (!empty($data['account']) && $access_item['app_access'] == 1 && $access_item['account'] == $slug) {
                 echo json_encode($data['account']);
