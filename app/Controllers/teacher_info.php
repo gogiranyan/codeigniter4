@@ -12,7 +12,6 @@ session_start();
 class Teacher_info extends Controller
 {
     
-
     public $app_access = 20;
     public $mac_access =false;
     public function index()
@@ -47,7 +46,7 @@ class Teacher_info extends Controller
         }
     }
 
-    public function login($slue = null) {
+    public function login($slue = null) {//手機POST帳密
         $model = model(teacherModel::class);
         $modelc = model(ControllersModel::class);
         $request = \Config\Services::request();//?
@@ -55,17 +54,18 @@ class Teacher_info extends Controller
         if ($this->request->getMethod() === 'post' && $this->validate([
             'account' => 'required',
             'password' => 'required',
-        ])) {
+        ])) {//POST值正確
             $account = $request->getPost('account');
             $password = $request->getPost("password");
-            $data = $model->getInfo(); 
+            $data = $model->getInfo();//取得帳密 
 
-            foreach($data as $data_item){
+            foreach($data as $data_item){//比對帳密
                 if($account == $data_item['account'] && 
                 $password == $data_item['password']){
+
                     $cdata =$modelc->getcontrol();
                     $temp = false;
-                    foreach($cdata as $cdata_item){
+                    foreach($cdata as $cdata_item){//??
                         if($cdata_item['account'] == $account){
                              $modelc->update($cdata_item['id'],['app_access' => 1]);
                              $temp =true;
@@ -78,11 +78,10 @@ class Teacher_info extends Controller
                         'app_access' => 1,
                         'mac_access' => 0
                     ]);
-                    echo "save";
                     echo $account;
+                    $_SESSION['account'] = $account;
                     }}else{
-                        echo "else";
-                    // echo json_encode(null);
+                     echo json_encode(null);
                     // echo $account;
                 }
             }
@@ -90,7 +89,11 @@ class Teacher_info extends Controller
             echo view("teacher_info/login");
         }
 	}
-    
-
-
+    public function is_connect_machine(){
+        if($_SESSION['$machine_id'] != null){
+            echo "true";
+        }else{
+            echo "false";
+        }
+    }
 }

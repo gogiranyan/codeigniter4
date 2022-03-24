@@ -8,7 +8,7 @@ session_start();
 
 class Machine_subject extends Controller
 {
-    public $machine_id;
+    // public $machine_id;
     public function index()
     {
         $_SESSION['mdmd'] = "good";
@@ -20,9 +20,7 @@ class Machine_subject extends Controller
     public function view($slug = null)
     {
 
-        if($_SESSION[$GLOBALS['machine_id']]!=null){
-            
-        }
+        
 
        
     }
@@ -34,13 +32,12 @@ class Machine_subject extends Controller
             'time' => 'time'
         ])){
             $GLOBALS['$machine_id'] = $request->getPost('machin_id');
-            $time = $request->getPost('time');
-            $_SESSION[$GLOBALS['$machine_id']] = $GLOBALS['$machine_id'];
+            // $_SESSION[$GLOBALS['$machine_id']] = $GLOBALS['$machine_id'];
             // $model->
         }
     }
 
-    public function getPOST_Subject(){
+    public function getPOST_Subject(){//手機取得資料
         $request = \Config\Services::request();//?
         if($this->request->getMethod() === 'post' &&$this->validate([
             'model' => 'model',
